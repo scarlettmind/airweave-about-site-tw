@@ -9,7 +9,7 @@
 <meta property="og:type" content="website" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600&family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500&family=IBM+Plex+Mono:wght@400;500&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet" />
 <style>
   :root{
     --paper:#ffffff;--cream:#f5f2ec;--cream-deep:#efe9df;--ink:#211f1c;--muted:#847c72;
@@ -66,7 +66,7 @@
   .hero .inner{position:relative;z-index:3;max-width:var(--maxw);margin:0 auto;width:100%;padding:0 var(--pad) clamp(56px,9vh,110px)}
   .hero .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:rgba(255,255,255,.92);margin-bottom:22px;text-shadow:0 1px 16px rgba(0,0,0,.5)}
   .hero h1{font-family:var(--serif);font-weight:300;color:#fff;font-size:clamp(40px,6.6vw,86px);line-height:1.04;letter-spacing:-.01em;max-width:18ch;text-shadow:0 2px 40px rgba(0,0,0,.5)}
-  .hero h1 em{font-style:italic;font-weight:300}
+  .hero h1 em{font-style:normal;font-weight:300}
   .hero .sub{margin-top:26px;color:rgba(255,255,255,.94);font-size:clamp(16px,2vw,21px);max-width:46ch;text-shadow:0 1px 24px rgba(0,0,0,.55)}
   .hero .cue{margin-top:30px;display:flex;align-items:center;gap:13px;font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.85)}
   .hero .cue .ln{width:48px;height:1px;background:rgba(255,255,255,.85);display:inline-block;animation:grow 2.4s ease-in-out infinite;transform-origin:left}
@@ -79,7 +79,7 @@
   .sec.flip .visual{order:2}
   .eyebrow2{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--blue);margin-bottom:16px}
   .sec h2{font-family:var(--serif);font-weight:300;font-size:clamp(30px,4.2vw,50px);line-height:1.1;letter-spacing:-.01em;color:var(--ink);max-width:18ch}
-  .sec h2 em{font-style:italic}
+  .sec h2 em{font-style:normal}
   .sec .body{margin-top:22px;font-size:clamp(15px,1.65vw,17.5px);max-width:50ch;color:var(--ink)}
   .sec .supp{margin-top:20px;font-family:var(--mono);font-size:12.5px;line-height:1.7;letter-spacing:.01em;color:var(--muted);max-width:46ch;border-left:2px solid var(--line);padding-left:16px}
 
@@ -101,7 +101,7 @@
   .bleed .body{color:rgba(255,255,255,.92)}
   .nobu-attrib{display:inline-flex;align-items:center;gap:16px;margin-top:32px;padding-top:26px;border-top:1px solid rgba(255,255,255,.2)}
   .nobu-attrib img{width:64px;height:64px;border-radius:50%;object-fit:cover;object-position:top;border:2px solid rgba(255,255,255,.6);flex:none}
-  .nobu-attrib .nm{font-family:var(--serif);font-style:italic;font-size:20px;color:#fff;display:block}
+  .nobu-attrib .nm{font-family:var(--serif);font-style:normal;font-size:20px;color:#fff;display:block}
   .nobu-attrib .rl{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#9fc3e8;margin-top:5px;display:inline-flex;gap:7px;transition:gap .2s}
   .nobu-attrib:hover .rl{gap:12px}
 
@@ -208,7 +208,7 @@
   <div class="scrim"></div>
   <div class="inner">
     <div class="eyebrow reveal">About Airweave</div>
-    <h1 class="reveal">為<em>卓越待客體驗</em>打造個人化睡眠</h1>
+    <h1 class="reveal">為<span>卓越待客體驗</span>打造個人化睡眠</h1>
     <p class="sub reveal">A science-backed Japanese sleep system designed to help every guest wake restored.</p>
     <a class="tlink light reveal" href="https://airweave.com/"><span class="lbl">了解 Airweave</span><span class="ar">→</span></a>
     <div class="cue reveal"><span class="ln"></span> Scroll</div>
@@ -253,7 +253,7 @@
   <div class="grid">
     <div class="reveal">
       <div class="eyebrow2">科學支持</div>
-      <h2>以<em>研究</em>支持的休息體驗</h2>
+      <h2>以<span>研究</span>支持的休息體驗</h2>
       <p class="body">Airweave 基於持續的睡眠研究開發，將透氣材質與靈敏支撐結合，幫助實現更清爽、更深層、更具恢復感的休息。</p>
       <a class="tlink" href="https://airweave.com/pages/sleep-research"><span class="lbl">查看睡眠研究</span><span class="ar">→</span></a>
     </div>
@@ -289,7 +289,7 @@
   <div class="grid">
     <div class="reveal">
       <div class="eyebrow2">面向未來</div>
-      <h2>為<em>未來</em>而生</h2>
+      <h2>為<span>未來</span>而生</h2>
       <p class="body">採用可回收的 airfiber® 材料，airweave 為傳統泡棉床墊提供更潔淨的替代選擇，同時支持長期舒適與更負責任的旅宿體驗。</p>
       <div class="cta-stack">
         <a class="tlink" href="https://airweave.com/pages/sustainability"><span class="lbl">了解我們的影響</span><span class="ar">→</span></a>
